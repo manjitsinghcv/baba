@@ -1,0 +1,21 @@
+<input type="text" data-ng-model="continent"/>
+
+<table style="width:100%">
+ <tr data-ng-repeat="country in countries |filter:continent">
+	
+	<td>
+	{{country.name}}
+	</td>
+	<td>
+	{{country.continent}}
+	</td>
+		<td>
+	{{country.currency}}
+	</td>
+	</tr>
+
+
+  </table>
+
+ 
+
