@@ -12,7 +12,9 @@ bower install,*********
 if you see error loading imagemin.js error run following commands********
 
 npm uninstall --save-dev grunt-contrib-imagemin,
-npm install --save-dev grunt-contrib-imagemin
+npm install --save-dev grunt-contrib-imagemin.
+
+****THANKS******
 
 
 
